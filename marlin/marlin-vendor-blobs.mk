@@ -1051,6 +1051,9 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/marlin/vendor/usr/keylayout/uinput-fpc.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-fpc.kl:google
 
 PRODUCT_COPY_FILES += \
+    vendor/google_devices/marlin/proprietary/priv-app/MyVerizonServices/lib/arm64/libmotricity.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MyVerizonServices/lib/arm64/libmotricity.so:google
+
+PRODUCT_COPY_FILES += \
     vendor/google_devices/marlin/proprietary/lib/libdmjavaplugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdmjavaplugin.so:google \
     vendor/google_devices/marlin/proprietary/lib/libdmengine.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdmengine.so:google
 

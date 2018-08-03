@@ -91,6 +91,7 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentTGoogleWCD9335 \
     HotwordEnrollmentXGoogleWCD9335 \
     LLKAgent \
+    MyVerizonServices \
     OBDM_Permissions \
     obdm_stub \
     OemDmTrigger \
