@@ -28,7 +28,6 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/sailfish/proprietary/etc/permissions/com.android.vzwomatrigger.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.android.vzwomatrigger.xml:google \
     vendor/google_devices/sailfish/proprietary/etc/permissions/com.customermobile.preload.vzw.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.customermobile.preload.vzw.xml:google \
     vendor/google_devices/sailfish/proprietary/etc/permissions/com.verizon.apn.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.verizon.apn.xml:google \
-    vendor/google_devices/sailfish/proprietary/etc/permissions/com.verizon.embms.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.verizon.embms.xml:google \
     vendor/google_devices/sailfish/proprietary/etc/permissions/com.verizon.llkagent.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.verizon.llkagent.xml:google \
     vendor/google_devices/sailfish/proprietary/etc/permissions/com.verizon.provider.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.verizon.provider.xml:google \
     vendor/google_devices/sailfish/proprietary/etc/permissions/com.verizon.services.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.verizon.services.xml:google \
@@ -58,9 +57,6 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/sailfish/proprietary/lib/lib-imsvt.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib-imsvt.so:google \
     vendor/google_devices/sailfish/proprietary/lib/lib-imsvtutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib-imsvtutils.so:google \
     vendor/google_devices/sailfish/proprietary/lib/librcc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/librcc.so:google \
-    vendor/google_devices/sailfish/vendor/app/embms/oem/config_params.xml:$(TARGET_COPY_OUT_VENDOR)/app/embms/oem/config_params.xml:google \
-    vendor/google_devices/sailfish/vendor/app/embms/oem/provisioning_params.xml:$(TARGET_COPY_OUT_VENDOR)/app/embms/oem/provisioning_params.xml:google \
-    vendor/google_devices/sailfish/vendor/app/embms/oem/verizon_config_params.txt:$(TARGET_COPY_OUT_VENDOR)/app/embms/oem/verizon_config_params.txt:google \
     vendor/google_devices/sailfish/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd:google \
     vendor/google_devices/sailfish/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon:google \
     vendor/google_devices/sailfish/vendor/bin/athdiag:$(TARGET_COPY_OUT_VENDOR)/bin/athdiag:google \
@@ -279,7 +275,6 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/sailfish/vendor/etc/permissions/android.software.midi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.midi.xml:google \
     vendor/google_devices/sailfish/vendor/etc/permissions/android.software.sip.voip.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.sip.voip.xml:google \
     vendor/google_devices/sailfish/vendor/etc/permissions/com.nxp.mifare.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.nxp.mifare.xml:google \
-    vendor/google_devices/sailfish/vendor/etc/permissions/embms.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/embms.xml:google \
     vendor/google_devices/sailfish/vendor/etc/permissions/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml:google \
     vendor/google_devices/sailfish/vendor/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qcrilhook.xml:google \
     vendor/google_devices/sailfish/vendor/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_permissions.xml:google \

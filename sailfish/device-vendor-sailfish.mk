@@ -43,7 +43,6 @@ PRODUCT_PACKAGES += \
     atfwd \
     colorservice \
     datastatusnotification \
-    embms \
     fastdormancy \
     ims \
     imssettings \
@@ -59,7 +58,6 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt APKs/JARs from 'vendor/framework'
 PRODUCT_PACKAGES += \
-    embmslibrary \
     qcrilhook \
     QtiTelephonyServicelibrary \
     qti-vzw-ims-internal \
